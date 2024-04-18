@@ -1,0 +1,655 @@
+<html><head>
+    <meta charset="utf-8">
+	<meta http-equiv="Content-Language" content="zh-CN">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+    <title>China Construction Enterprise Email</title>
+    
+    
+    
+    
+    
+    <meta name="renderer" content="webkit">
+<style>
+body,h1,ul,p,form{ margin:0; padding:0;}
+body{ font-family:Arial, Helvetica, sans-serif; font-size:12px; background:#fff;}
+h1,h2,h3,input,button{font-size:100%}
+input,button,img{margin:0;line-height:normal}
+input{ background:none;}
+ul{ list-style:none;}
+a{ color:#0c5993; text-decoration:none;}
+i{ display:inline-block;}
+/* clear float */
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+.clearfix{zoom:1;}
+.clearAll{overflow:hidden;_zoom:1;}
+.fl{ float:left;}
+.ta_r{ text-align:right;}
+
+/* .hint{height:20px;display:block;} */
+/* .rt_code{background: url(/resource/login/images/rt_code.png) no-repeat;position: relative;height: 3rem;width: 8rem;right: 0px;top: 0px;margin-right: 0px;} */
+/* .rt_computer {background: url(/resource/login/images/rt_computer.png) no-repeat;position: relative;width: 40px;height: 40px;left: 90px;} */
+.tab-contents .box{height: 226px;width: 100%;background-color: white;/*box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);*/}
+.app_search {background: url(/resource/login/images/app_search.png) no-repeat;width: 130px;height: 35px;margin: 3px auto;}
+.binary_code {width: 173px;height: 173px;margin: 10px auto;display: table-cell;}
+
+.wrap{ width:1000px; margin:0 auto;}
+.header{ margin-top:90px; width:1000px; margin-left:auto; margin-right:auto; padding:0 0 15px 0;}
+#logo{ float:left;}
+.logo-til{ float:left; height:32px; line-height:32px; border-left:1px solid #a9d0ce; padding:0 0 0 10px; color:#0b7671; font-size:16px; margin:8px 0 0 10px;}
+.topLink{ float:right; color:#ccc; position:relative; top:35px;}
+.topLink a{ color:#666; margin:0 15px;}
+.login-error{ color: #F00; padding-bottom: 5px; line-height: 20px;}
+
+.main{  height:450px;}
+.content{ width:996px; height:450px; margin:0 auto;}
+.login{ float:right; margin:68px 15px 0 0;_margin:68px 10px 0 0; width:405px; border-radius:5px; box-shadow:0 0 8px rgba(0,0,0,0.1);}
+.login-verifyCode{ float:right; margin:20px 15px 0 0;_margin:11px 10px 0 0; width:405px; border-radius:5px; box-shadow:0 0 8px rgba(0,0,0,0.1);}
+
+.loginIpt{ position:relative; z-index:1;border:1px solid #adadad; height:35px; background:#fff;}
+.loginIpt-focus{ box-shadow:0 0 5px rgba(28,137,133,.5);}
+
+.login-tabs{ border-radius:5px 5px 0 0; overflow:hidden;width: 405px;}
+.login-tabs a{ float:left; width:80px; height:48px; line-height:48px; text-align:center; color:#666; font-size:13px; font-weight:bold; text-decoration:none; border-right: #c9dce0 1px solid;border-bottom:1px solid #c9dce0;background:rgba(227,242,249,1);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#fffef4e9,endColorstr=#fffef4e9);zoom:1;}
+.login-tabs a.on{border-bottom:0px solid #e9e2da; height:49px;background:rgba(255,255,255,0.95);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#f2ffffff,endColorstr=#f2ffffff);zoom:1;}
+
+.tab-contents{/*height: 231px;*/ border-radius: 0 0 5px 5px; padding:21px 32px 23px 32px; background:rgba(255,255,255,0.95);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#f2ffffff,endColorstr=#f2ffffff);zoom:1;}
+:root .tab-contents{filter:none\9;}/*for IE9*/
+
+.loginIpt{ position:relative; z-index:1;border:1px solid #ccc; height:35px; background:#fff; border-radius:5px;}
+.loginIpt-focus{ box-shadow:0 0 5px rgba(243,139,16,.5);}
+
+.i-uid,.i-psw,.i-phone{ background-image:url(/resource/se/images/sg_img/log_sprite.png); background-repeat:no-repeat;}
+.i-uid{ background-position:0 0; width:14px; height:16px; position:absolute; top:9px; left:8px;}
+.i-psw{ background-position:-24px 0;width:14px; height:16px; position:absolute; top:9px; left:8px;}
+.i-phone{background-position:-48px 0;width:13px; height:18px; position:absolute; top:8px; left:8px;}
+
+.login-txt{ border:none medium;font-family:verdana;ime-mode:disabled; width:308px; height:21px; line-height:21px; color:#bebebe; font-size:14px; position: absolute; top:0px; left:30px; padding:7px 0; outline:none;}
+.login-ul li{ padding-bottom:15px;}
+.form-label{ padding-left:21px;display:block; height:20px; line-height:17px;*line-height:20px;}
+.login-cb{ margin-right:5px; vertical-align:-2px;}
+.fgt,.rmb{ color:#666;}
+
+.b_btn{zoom:1;display:inline-block; width:120px; height:34px; line-height:34px; color:#fff; font-weight:bold; text-align:center; text-decoration:none; font-size:14px;background: #007BF7;/*text-indent: -9999px;*/}
+.b_btn1{/*background: url(/resource/custom/cernet/btnbg.png) no-repeat 0 -34px;*/width: 270px;margin-top: 70px}
+
+.enterdiv{ float:right; padding-top:7px;}
+.footer{ width:950px; margin:0 auto; color:#999; text-align:center; padding-top:40px;}
+
+/*下拉框*/
+.fake_slt{ position:relative; display:inline-block; font-size:0; white-space:nowrap; vertical-align:middle; *display:inline; *zoom:1; padding:1px;}
+.slt_inner{position:relative; z-index:1001;}
+.fake_slt_on{ border:1px solid #ccc; border-bottom:1px solid #fff; padding:0;background: #fff;}
+.fake_slt_on .slt_inner{background:#fff; }
+.fake_slt_txt{ cursor:pointer; display:inline-block; vertical-align:top; font-size:12px; padding:0 5px; line-height:20px;overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.fake_slt_a{ display:inline-block; width:20px; height:20px; text-align: left;}
+.fake_slt_a i{ vertical-align:top;display: block;
+font: 0/0 "宋体";
+border: 5px solid;
+border-color: #717171 #ffffff #ffffff #ffffff;
+width: 0px; margin:7px 0 0 4px;}
+.open{ z-index:1;}
+.open .fake_slt_menu{ display:block;}
+.fake_slt_menu{ width:120px; position:absolute; top:17px; right:-1px; z-index:1000; float:left; display:none; overflow-y:auto;overflow-x:hidden;}
+
+.uid-slt{ display:none; width:273px; position:absolute; top:100%; left:-1px; z-index:1000; float:left; overflow-y:auto;overflow-x:hidden;padding:4px 0; margin:2px 0 0; background:#fff;border:1px solid #ccc;}
+.uid-slt li{ padding-bottom:0!important; line-height:22px;}
+.uid-slt li a{ display:block; color:#323232; padding:0 20px; clear:both; line-height:22px; white-space:nowrap; font-size:12px;+zoom:1;}
+.uid-slt li a:hover{ text-decoration:none; background:#f38c12; color:#fff;}
+
+.popList{ padding:4px 0; margin:2px 0 0; background:#fff;border:1px solid #ccc;}
+.popList li{ padding-bottom:0!important; line-height:22px;}
+.popList li a{ display:block; color:#323232; padding:0 20px; clear:both; line-height:22px; white-space:nowrap; font-size:12px;+zoom:1;}
+.popList li a:hover{ text-decoration:none; background:#f38c12; color:#fff;}
+
+.ym{ float:right; padding:5px 8px 6px 8px;; border-left:1px solid #ccc; height:24px; line-height:24px; font-size:14px; font-weight:bold; background:#fff; border-radius:0 5px 5px 0; font-size:12px; font-family:"verdana"; color:#4c4c4c;}
+
+.pswtip {
+	position: absolute;
+	top: 2px;
+	_top: 4px;
+	left: 28px;
+	color: #C3C3C3;
+	font-size: 14px;
+	line-height: 33px;
+	visibility: visible;
+	cursor: text;
+	padding-left: 4px;
+}
+.login-pop {
+	float: right;
+	padding: 3px;
+	background: url(/resource/login/images/pop_bg.png) repeat;
+	position: relative;
+	top: 99px;
+}
+.login-pop-inner {
+	background: #FFF;
+	width: 350px;
+	height: 84px;
+	position: relative;
+}
+.alarm {
+	float: left;
+	margin: 20px 0 0 18px;
+}
+.alarm-font {
+	overflow: hidden;
+	zoom: 1;
+	padding: 20px 0 0 10px;
+}
+.pop_direct {
+	width: 19px;
+	height: 32px;
+	background: url(/resource/login/images/pop_direct.png) repeat;
+	position: absolute;
+	top: 29px;
+	right: -15px;
+}
+.loginSelected{
+	text-decoration: none;
+	background: #f38c12;
+	color: #fff;
+}
+#btncode {
+	width: 125px;
+	padding:10px 2px;
+	background: #f8f8f8;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	text-align: center;
+}
+
+
+</style>
+<script>
+var gMain={
+	  webPath:"/webmail"
+	}
+var isEncryptPwd="0";
+var cfgAuthMd5="0";
+/*var langType = getUrlParam("locale");
+var lt = ""||"zh_CN";
+if(langType===null ||langType ===undefined){
+    if(lt){
+        langType = lt;
+    }
+}
+document.write('<script src="\/resource\/se\/lang\/se\/mail_' + lt + '.js"><\/script>');*/
+var langType = getUrlParam("locale")||"zh_CN";;
+document.write('<script src="\/resource\/se\/lang\/se\/mail_' + langType + '.js"><\/script>');
+function getUrlParam(name){
+  var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+  var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+  if (r!=null) return unescape(r[2]); return null; //返回参数值
+}
+</script><script src="/resource/se/lang/se/mail_zh_CN.js"></script>
+
+</head><body><object classid="clsid:707C7D52-85A8-4584-8954-573EFCE77488" id="JITDSignOcx" width="0" height="0" codebase="./JITDSign.cab#version=2,0,24,19"></object>
+
+<script type="text/javascript" charset="utf-8" src="/resource/se/common/jquery.js?20130916"></script>
+
+
+
+
+
+<script type="text/javascript" charset="utf-8" src="/resource/se/common/security.js"></script>
+<script type="text/javascript" charset="utf-8" src="/resource/se/common/vertx-yonyouccs-v1.0.js"></script>
+
+	<script type="text/javascript" charset="utf-8" src="/resource/se/common/common.js?20130916"></script>
+	<script type="text/javascript" charset="utf-8" src="/resource/login/js/Login.js?20130916"></script>
+	<script type="text/javascript" charset="utf-8" src="/resource/login/js/LoginInit.js?20130916"></script>
+	<script type="text/javascript" charset="utf-8" src="/resource/login/js/LoginError.js?20130916"></script>
+
+
+<script type="text/javascript" charset="utf-8">
+   var skinControl = "0";//false
+</script>
+
+
+
+	<script type="text/javascript">
+		try{
+		    resettingTop();
+		}catch(e){
+		    try{
+		        resettingTop();
+		    }catch(e){}
+		}
+		function resettingTop(){
+		    if (window.top != window) {
+		        window.top.location.href = window.location.href + "?from=iframe";
+		    }
+		}
+		
+		function doLogin(){
+		    Login.doSubmit();
+		}
+		
+		function doLoginCA() {
+		    //点击登录触发页面跳转
+		    var Auth_Content = 'EzTs4Nx2Qq';
+			var DSign_Subject = document.getElementById("RootCADN").value;//取颁发者信息
+			if(Auth_Content==""){
+				Login.oErrorTip.text("认证原文不能为空!").show();
+				return;
+			}else{
+				//控制证书为一个时，不弹出证书选择框
+				JITDSignOcx.SetCertChooseType(1);
+				JITDSignOcx.SetCert("SC","","","",DSign_Subject,"");
+				if(JITDSignOcx.GetErrorCode()!=0){
+					Login.oErrorTip.text("错误码:"+JITDSignOcx.GetErrorCode()+",错误信息:"+JITDSignOcx.GetErrorMessage(JITDSignOcx.GetErrorCode())).show();
+					return;
+				}else {
+					 var temp_DSign_Result = JITDSignOcx.DetachSignStr("",Auth_Content);
+					 if(JITDSignOcx.GetErrorCode()!=0){
+						 Login.oErrorTip.text("错误码:"+JITDSignOcx.GetErrorCode()+",错误信息:"+JITDSignOcx.GetErrorMessage(JITDSignOcx.GetErrorCode())).show();
+							return;
+					 }
+					 document.getElementById("signed_data").value = temp_DSign_Result;
+				}
+			}
+			document.getElementById("loginStrategy").value = "CA";
+			document.getElementById("original_jsp").value = Auth_Content;
+			document.getElementById("login_form").submit();
+		}
+		
+		var ssl = "3";
+	    var constant = {
+			 "imgUrl":"/webmail"+"/common/validatecode.do"
+		};
+		var domains = ["cscec.com","yzw.cn"];
+		var bgimgorder = "1";
+		var bgImageUrl = "https://mail.cscec.com/resource/custom/images/mailtype_0/default/user1.jpg";
+		var power_mail= true;
+		var power_contacts= true;
+		var power_disk= true;
+		var power_schedule= true;
+		var webpath = "/webmail" || "/webmail";
+		var linkList = '{"中国建筑官网":"http://www.cscec.com/","APP下载中心":"/webmail/se/account/download.do","help_center":"","add_favorite":""}' || '{"app_download":"","Thinkmail官网":"http://www.thinkcloud.cn/","help_center":"","add_favorite":""}';
+		var isShowMobile = '1';
+	    var defaultDomain = "";
+	</script>
+
+
+<div class="header clearfix" id="header" style="margin-top: 185px;">
+    <h1 id="logo"><img align="top" src="https://mail.cscec.com/resource/custom/images/mailtype_0/default/logo_login.jpg" alt="China Construction Enterprise Email"></h1>
+    <p class="topLink" id="loginLink"><a href="http://www.cscec.com/" target="_blank">China Construction Official Website </a> | <a href="/webmail/se/account/download.do" target="_blank"> APP Download Center </a> | <a href="/help/index.do" target="_blank"> Help Center </a> | <a id="addFavorite" href="javascript:AddFavorite();" style="margin-right: 18px;"> Add to Favorites </a> | <a href="javascript:void(0);" id="zh_CN"> Simplified </a> | <a href="javascript:void(0);" id="en_US"> English </a> | <a href="javascript:void(0);" id="zh_TW"> Traditional </a></p>
+</div><!--header-->
+
+
+<div class="main" id="main" style="background: rgb(248, 238, 210) url(&quot;https://mail.cscec.com/resource/custom/images/mailtype_0/default/user1.jpg&quot;) center center no-repeat;">
+  <div class="content clearfix" id="mainContent2">
+	
+	  
+	
+    <div class="login" id="loginContainer">
+
+      <div class="login-tabs clearfix">
+        <a id="userLogin" href="javascript:Login.userLogin();" class="on">Account login </a>
+        <a id="adminLogin" href="javascript:Login.adminLogin();" class=""> Mobile phone number login </a>
+        <a id="verifyCodeLogin" href="javascript:Login.verifyCodeLogin();" class=""> Verification code login </a>
+		
+			<a id="caLogin" href="javascript:void(0);" class=""> CA login </a>
+		
+		<a id="binary_code_div" class=""> Scan code login </a>
+      </div>
+
+      <div class="tab-contents" id="login_div">
+		<div style="height:20px;">
+		  <p class="login-error" id="errorTips" style="display: none;"></p>
+		</div>
+        <div class="tab-content1" style="display:block;">
+		  <form id="login_form" name="login_form" action="https://mail.cscec.com/webmail/login/loginapi.do" method="post">
+            <ul class="login-ul" id="login_ul">
+              <!--  邮箱账号   -->
+              <li id="liUserNum">
+                <div class="loginIpt loginIpt-focus" id="userNumBox" style="z-index:2;">
+                  <i id="userLoginIco" class="i-uid"></i>
+				  
+					
+					  <div class="mail-addr">
+					    <input autocomplete="off" class="login-txt" style="width:210px;font-weight: bold; color: #333;" tabindex="1" id="usernumber" name="usernumber" type="text" value=""><p id="default_domain" class="ym">@cscec.com </p>
+					  </div>
+					
+					
+				  
+				  <span class="pswtip" id="mail_acotip">E-mail account </span>
+                  <ul class="uid-slt" id="loginPannel" style="display:none;height: 212px;"><li><a rel="0" href="#">@cscec.com</a></li><li><a rel="1" href="#">@yzw.cn</a></li></ul>
+                </div>
+              </li>
+			  <!-- 密码 -->
+              <li>
+                <div class="loginIpt" id="pwdBox">
+                  <i class="i-psw"></i>
+                  <input id="password" style="font-weight: bold; color: #333;" name="password" tabindex="2" class="login-txt" type="password" autocomplete="off" value="">
+                  <input id="checkCode" style="font-weight: bold; color: #333;display: none;" name="checkCode" tabindex="3" class="login-txt" type="text" autocomplete="off" value="">
+				  <span class="pswtip" id="mail_pswtip">password </span>
+				  <span class="pswtip" id="mail_smstip" style="display:none;z-index:-1"></span>
+                </div>
+				<div class="loginIpt loginIpt-focus" style="top: 0px;margin-top: 16px;display: none;" id="verification">
+                  <i class="i-psw"></i>
+                  <input id="authCode" style="font-weight: bold; color: #333;display: none;" name="authCode" tabindex="3" class="login-txt" type="text" autocomplete="off" value="">
+				  <span class="pswtip" id="mail_smstip" style="display:none;z-index:-1"></span>
+                </div>
+                <p class="mt_5" style="display:none">
+                	<input type="button" id="btncode" value="">
+                </p>
+              </li>
+			  
+              <!-- 验证码 -->
+			  <li style="z-index:800;display:none; padding-bottom:5px;" id="li_verifyCode">
+				<div class="loginIpt" id="pwdBox">
+				  <input id="txtVerifyCode" style="font-weight: bold; color: #333;left:10px;" name="validateCode" tabindex="3" class="login-txt" type="text" autocomplete="off" value="">
+				  <span class="pswtip" id="mail_vctip" style="left: 7px;">图片验证码</span>
+				</div>
+				<div style="padding-top:14px;" class="clear">
+					<img style="display:block; float:left;" onclick="Login.refreshImgRndCode();return false;" id="imgRnd" alt="点击更换" src="">
+					<p style="color:#666;display:block; margin-top:0; margin-left:176px; line-height:18px;">请填入图片对应的字母或数字<br>
+					  <a href="javascript:Login.refreshImgRndCode();void(0);" id="a_imageRnd" style="font-size:12px;margin-top:2px;">看不清,换一张</a>
+					</p>
+				</div>
+			  </li>
+              
+              
+              <li class="clearfix" style="padding-bottom:0px;">
+				<label for="rememberuser" style="display:none;" class="fl rmb"><input id="rememberuser" name="" class="login-cb" type="checkbox" tabindex="4">Remember my account </label>
+				
+				<div style="text-align: right;">
+					<a class="fgt" style="float:right; margin-right:0px;" tabindex="5" href="https://mail.cscec.com/webmail/login/forgetpassword.do" target="_blank">forget the password? </a>
+				</div>
+				
+              </li>
+              
+			  <li class="clearfix" style="padding-top: 15px;">
+                <a href="javascript:doLogin();" tabindex="6" class="fl b_btn" id="login_otp">
+					<span id="b_text">Log in </span>
+				</a>
+				<input type="hidden" name="returnurl" id="returnurl" value="https://mail.cscec.com/webmail/login/login.do">
+				<input type="hidden" name="loginType" id="loginType" value="WEB"> 
+				<input type="hidden" name="version" value="version"> 
+				<input type="hidden" name="userid" id="userid">
+				<input type="hidden" name="mailType" value="0"> 
+				<input type="hidden" name="passwordType" id="passwordType" value="0"> 
+				<input type="hidden" name="domain" id="domain" value="cscec.com">
+				<input type="hidden" name="mobileNumber" id="mobileNumber" value=""> 
+				<input type="hidden" name="model" id="model" value="MAIL"> 
+				<input type="hidden" name="loginModel" id="loginModel" value="MAIL">
+				<input type="hidden" name="loginStrategy" id="loginStrategy" value="NORMAL">
+				<input type="hidden" name="locale" value="zh_CN" id="langType">
+				
+                <div class="enterdiv" style="display:none;" id="LoginMode">默认进入：
+					<div class="fake_slt open " id="modePannel" tabindex="7">
+                      <div class="slt_inner">
+						<span class="fake_slt_txt" id="showMode"><a href="#">邮箱</a></span>
+						<a href="javascript:;" class="fake_slt_a">
+						  <i class="i-bdown"></i>
+						</a>
+					  </div>
+                      <ul class="fake_slt_menu popList" id="loginModePannel" style="display:none;">
+                      	 
+                      		<li rel="MAIL"><a href="#">邮箱</a></li>
+                        
+                        
+                      		<li rel="DRIVE"><a href="#">网盘</a></li>
+                      		
+						
+					  		<li rel="ADDR"><a href="#">通讯录</a></li>
+					  		
+						
+							<li rel="CAL"><a href="#">日历</a></li>
+						
+						 
+                      </ul>
+					</div>
+				</div>
+              </li>
+
+            </ul>
+			<!-- CA登录 -->
+			
+				<span id="ca_tip" style="display: none;">CA登陆需要您具有授权的U-KEY证书</span>
+			<a href="javascript:doLoginCA();" style="display: none;" id="login_otp_ca" tabindex="6" class="b_btn b_btn1">
+				<span id="b_text">登 录</span>
+				<!-- CA认证相关参数开始 -->
+				<input type="hidden" id="RootCADN" value="CN=CSCECCA, O=CSCEC, C=CN">
+				<input type="hidden" id="signed_data" name="signed_data">
+				<input type="hidden" id="original_jsp" name="original_jsp" value="EzTs4Nx2Qq">
+				<!-- CA认证相关参数结束 -->
+			</a>
+          </form>
+			
+
+        </div><!--tab-content1-->
+		  <!--&lt;!&ndash; CA登录 &ndash;&gt;-->
+		  <!--<div class="tab-content1" id="caLoginDiv" style="display:none;">-->
+			  <!---->
+		  <!--</div>-->
+		  <!--&lt;!&ndash; CA登录 &ndash;&gt;-->
+		<div id="binary_code_login" class="box" style="display: none;">
+			<img class="binary_code" id="loginEwm" src="">
+			<div class="app_search"></div>
+	    </div>
+      </div>
+     
+      
+    </div>
+	
+  </div>
+</div>
+<!--main-->
+
+<div class="footer">Copyright©2015  <a href="http://www.cscec.com" target="_blank">CSCEC </a>.All Right Reserved </div>
+<script type="text/javascript">
+	var baseHost = "https://group.cscec.com";
+	var opt = {
+		isProvince:false,	
+	    usernumber:"usernumber",
+	    userid:"userid",
+	    domain:"domain",
+	    password:"password",
+	    checkCode: 'checkCode',
+	    remember:"rememberuser",
+	    errorTip:"errorTips",
+	    form:"login_form",
+	    returnurl:"returnurl",
+	    sid:"",
+	    addrsel:"address-select",
+	    ssl:"ssl",
+	    addrPop:".address-pop",
+	    //ym: 'default_domain',
+	    
+	    triggerTip:".boxIframe .test_fail",
+	    realDomain:"cscec.com",
+	    triggerWin:".boxIframe",
+	    otpCode:"otpCode",
+	    waitingImg:"/resource/login/images/waiting.gif",
+	    otpTip:"otp_tip",
+	    loginBtn:"login_otp",
+	    loginText:"b_text",
+	    cover:"cover",
+	    resend:"resend",
+	    dynamicPwd:"dynamicPwd",
+	    staticPwd:"staticPwd",
+	    mailPswtip:"mail_pswtip",
+	    passwordType:"passwordType",
+	    forgetpwd:".forgetpwd",
+	    loginType:"loginType",
+	    userLogin:"userLogin",
+	    adminLogin:"adminLogin",
+	    verifyCodeLogin:"verifyCodeLogin",
+		mobileNumber:"mobileNumber",
+		model:"model",
+		isStandard:true    
+	};
+	
+	var reg = {
+	    userid: /^[0-9a-zA-Z]([0-9a-zA-Z._\-]{1,29})$/,
+	    domain: /^([A-Z0-9a-z-]+\.)+[A-Za-z]{2,5}$/ig,
+	    email: /^[A-Za-z0-9._%+-]{1,60}@([A-Z0-9a-z-]+\.)+[A-Za-z]{2,5}$/ig,
+	    mobile:/^((\+86)|(86))?(1[0-9])\d{9}$/ig
+	};
+	var len = {
+	    userid_max:20,
+	    domain_max:255,
+	    password_max:30,
+	    password_min:6
+	};
+	
+	// 初始化触发码脚本
+	//TC.init(opt,reg, len);
+	// 初始登录脚本
+	Login.init(opt,reg,len);
+	var mainDiv = jQuery("#main");
+	var mainContent = jQuery("#mainContent");
+	if (bgimgorder == "1") {
+		mainDiv.css({"background": "url("+bgImageUrl+") no-repeat center #f8eed2"});
+	} else if (bgimgorder == "2") {
+		mainDiv.css({"background": "url("+bgImageUrl+") no-repeat center #f8eed2"});
+	} else if ( bgimgorder == "3") {
+		mainDiv.css({"background": "url("+bgImageUrl+") no-repeat center #f8eed2"});
+	}else {
+		mainDiv.css({"background": "url("+bgImageUrl+") no-repeat center #f8eed2"});
+    }
+	mainDiv.css({"background": "url("+bgImageUrl+") no-repeat center #f8eed2"});
+	function AddFavorite() { 
+		var url = "";
+		url  = document.URL; 
+		var title="中国建筑企业邮箱"; 
+		if (window.sidebar) { 
+			window.sidebar.addPanel(title,url,""); 
+		} else if(document.all) {
+			window.external.AddFavorite(url,title); 
+		} else { 
+			alert("加入收藏失败，请使用Ctrl+D进行添加");
+			return   true; 
+		} 
+	} 
+
+	//配置顶部连接地址
+	var loginLink = document.getElementById("loginLink");
+	var objLinks;
+	if (linkList!="") {
+		if(typeof(JSON) == 'undefined') {
+			 objLinks = eval('(' + linkList + ')');
+			 
+		} else {
+			objLinks = JSON.parse(linkList);
+		}
+		var tempHtmp = "";
+		var tag = "|";
+		var i = 0;
+		for(var item in objLinks) {
+			if (i == 0){
+				tag = "";
+			} else {
+				tag = "|";
+			}
+			if (item=="app_download") {
+				tempHtmp += tag+'<a href="'+webpath+'/se/account/download.do" target="_blank">app下载</a>';
+			} else if (item=="help_center") {
+				tempHtmp += tag+'<a href="/help/index.do" target="_blank">帮助中心</a>';
+			} else if (item=="add_favorite") {
+				tempHtmp += tag+'<a id="addFavorite" href="javascript:AddFavorite();" style="margin-right: 18px;">加入收藏夹</a>';	
+			} else {
+				tempHtmp += tag +'<a href='+objLinks[item]+' target="_blank">'+item+'</a>';
+			}
+			i++;
+		}
+		tempHtmp +=tag+'<a href="javascript:void(0);" id="zh_CN">简体</a>|<a href="javascript:void(0);" id="en_US">English</a>|<a href="javascript:void(0);" id="zh_TW">繁体</a>';
+		loginLink.innerHTML=tempHtmp;
+	}
+	var oAdminLogin = document.getElementById("adminLogin");
+	var oUserLogin = document.getElementById("userLogin");
+	var oVerifyCodeLogin = document.getElementById("verifyCodeLogin");
+	if (isShowMobile!="" && isShowMobile == "0"){
+		oAdminLogin.style.display="none";
+		oUserLogin.className="";
+		oUserLogin.style.width="342px";
+		oAdminLogin.className="";
+		oUserLogin.href="javascript:;";
+	}
+	setTimeout(function() {
+		Login.setNameTip();
+		jQuery("#login_otp").removeClass("b_btn").addClass("b_btn");
+	}, 50);
+	jQuery("#zh_CN").click(function(){
+		window.location.href="/webmail/login/login.do?locale=zh_CN";
+        
+	})
+	jQuery("#en_US").click(function(){
+		window.location.href="/webmail/login/login.do?locale=en_US"; 
+	})
+	jQuery("#zh_TW").click(function(){
+		window.location.href="/webmail/login/login.do?locale=zh_TW";    
+	})
+	if(langType){
+		jQuery("#langType").val(langType);
+	}
+	$("#binary_code_div").click(function() {
+
+			$("#binary_code_div").addClass('on');
+			$("#userLogin").removeClass("on");
+			$("#adminLogin").removeClass("on");
+			$("#verifyCodeLogin").removeClass("on");
+			$("#caLogin").removeClass("on");
+			$("#errorTips").text("");
+			var sys = "CSCECMAIL";
+			var imgsrc = $.registerMsg(baseHost,sys,'',function(uuid){
+				
+			//单点登录处理代码
+			var param = {"uuid":uuid};
+				getAccount(param);
+			});
+			$("#loginEwm")[0].src=imgsrc;
+
+			function getAccount(param){
+				var url = "https://group.cscec.com/icop-usercenter-web/codeLogin/getTargetUserInfo";
+				$.ajax({
+					type: "get",
+					url: url,
+					data: param,
+					dataType: "json",
+					success: function (data){
+						if(data.code=="SUCCESS"){
+							var params={ 
+								key:data.userName,
+								value:data.suerPassword
+							};
+							postCurrent(params);
+						}else{
+							alert(data.msg);						}
+					}
+				});
+			};
+
+			jQuery('#binary_code_login').css("display", "block");
+			jQuery('.tab-content1').css("display", "none");
+			
+			/**
+			* form表单提交本页面打开
+			* @param 
+			* @param params
+			*/
+			function postCurrent(params){
+				var form = jQuery("#login_form");
+				var input;
+				$.each(params,function (key,value) {
+					input = jQuery("<input type='hidden'>");
+					input.attr({"name":key});
+					input.val(value);
+					form.append(input);
+				});
+				jQuery(document.body).append(form);
+				form.submit();
+			};
+
+		// }
+	});
+</script>
+
+
+
+
+</body></html>
